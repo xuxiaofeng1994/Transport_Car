@@ -27,7 +27,7 @@ void delayms(xms){
 //微秒级的延时函数
 void delayus(uint xus){
 	uint i;
-	for(i = 0; i < (xus * 5); i++);	
+	for(i = 0; i < xus; i++);	
 }
 /**************************/
 //初始化定时器T0,T0用来记录Echo持续的高电平的时间
